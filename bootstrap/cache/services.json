@@ -27,7 +27,8 @@
         "App\\Providers\\AuthServiceProvider",
         "App\\Providers\\EventServiceProvider",
         "App\\Providers\\RouteServiceProvider",
-        "jai\\Contact\\ContactServiceprovider"
+        "Jai\\Contact\\ContactServiceprovider",
+        "Jenssegers\\Mongodb\\MongodbServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -45,7 +46,8 @@
         "App\\Providers\\AuthServiceProvider",
         "App\\Providers\\EventServiceProvider",
         "App\\Providers\\RouteServiceProvider",
-        "jai\\Contact\\ContactServiceprovider"
+        "Jai\\Contact\\ContactServiceprovider",
+        "Jenssegers\\Mongodb\\MongodbServiceProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",

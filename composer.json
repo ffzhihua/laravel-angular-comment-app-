@@ -25,7 +25,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-			"jai\\Contact\\":"packages/jai/Contact/src/"
+			"Jai\\Contact\\":"packages/Jai/Contact/src/"
         }
     },
     "autoload-dev": {

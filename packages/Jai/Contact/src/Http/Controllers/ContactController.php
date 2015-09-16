@@ -9,7 +9,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Config;
 use PRedis;
 use Redis;
-
+use Jai\Contact\Http\Models\User;
+use Jai\Contact\Http\Models\Comment;
 class ContactController extends Controller
 {
 
@@ -20,12 +21,11 @@ class ContactController extends Controller
 	 */
 	public function index()
 	{
-
-	
-
-		$user = PRedis::set('test','444');
-		$user = PRedis::get('test');
-var_dump($user);exit;
+		
+	$comment = Comment::all();
+		dd($comment);
+	$user = User::first();
+	dd($user->x);
 		return view('contact::contact');
 	}
 }

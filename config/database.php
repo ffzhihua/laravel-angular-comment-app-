@@ -84,6 +84,17 @@ return [
             'charset'  => 'utf8',
             'prefix'   => '',
         ],
+		'mongodb' => [
+			'driver'   => 'mongodb',
+			'host'     => '127.0.0.1',
+			'port'     => '12345',
+			'database' => 'laravel',
+			'username' => '',
+			'password' => '',
+			'options' => [
+        		'db' => 'admin' // sets the authentication database required by mongo 3
+       		]
+		],
 
     ],
 

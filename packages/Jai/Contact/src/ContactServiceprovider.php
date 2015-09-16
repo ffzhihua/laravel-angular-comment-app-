@@ -1,4 +1,4 @@
-<?php namespace	 jai\Contact;
+<?php namespace	 Jai\Contact;
 
 /**
  * 
@@ -40,7 +40,7 @@ class ContactServiceprovider extends ServiceProvider{
 	 */
 	public function setupRoutes(Router $router)
 	{
-		$router->group(['namespace' => 'jai\Contact\Http\Controllers'], function($router)
+		$router->group(['namespace' => 'Jai\Contact\Http\Controllers'], function($router)
 		{
 			require __DIR__.'/Http/routes.php';
 		});
