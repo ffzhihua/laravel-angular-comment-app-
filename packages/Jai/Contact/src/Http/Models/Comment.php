@@ -1,4 +1,4 @@
-<?php namespace jai\Contact\Http\Models;
+<?php namespace Jai\Contact\Http\Models;
  
 // app/models/Comment.php
  use Eloquent;
